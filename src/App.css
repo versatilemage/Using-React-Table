@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  background: rgb(200, 200, 200);
+}
+.link-tag {
+  background: rgb(110, 110, 110);
+  padding: 1em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+.link-btn {
+  text-decoration: none;
+  border: solid 2px black;
+  padding: 0.2em 1em;
+  border-radius: 0.5em;
+  background: rgb(60, 60, 60);
+  color: white;
+  margin-left: 1em;
+}
+
+Table {
+  border: solid 2px black;
+  width: 50%;
+  margin: 5em auto;
+  text-align: center;
+}
+.rc-table-thead {
+  background: rgb(73, 73, 73);
+  font-size: 1.2em;
+}
+
+.rc-table-tbody {
+  background: rgb(123, 123, 123);
+}
+
+.rc-table-cell {
+  border: solid 2px black;
+  border-collapse: collapse;
+}
+
+.resultCount {
+  width: 80%;
+  margin: 1em auto;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: right;
+}
